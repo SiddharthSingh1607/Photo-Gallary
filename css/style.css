@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+  max-width: 85%;
+  margin:20px auto;
+}
+.header .title{
+  font-size: 25px;
+  background-color: rgb(4, 129, 232);
+  color:rgb(229, 244, 10);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding:15px;
+  border: 2px solid black;
+}
+.header .title:hover{
+  transform: scale(1.1);
+	transition: .3s;
+}
+nav{
+  display: flex;
+	align-items: center;
+	justify-content: space-between;
+  margin-bottom: 20px;
+}
+nav ul li{
+  list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+  background-color:rgb(4, 129, 232);
+  color:rgb(229, 244, 10);
+  border:2px solid black;
+  align-items:center;
+  margin-left:15vw;
+   
+}
+nav ul li a{
+  color:rgb(229, 244, 10);
+}
+nav ul li:hover{
+  color:rgb(229, 244, 10);
+  transform: scale(1.1);
+	transition: .3s;
+}
+
+
+.header .image-container{
+  columns:3 250px;
+  gap:15px;
+
+}
+.header .image-container img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid black;
+}
+.header .image-container img:hover{
+  transform: scale(1.1);
+	transition: .3s;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background:  rgb(4, 129, 232);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color:rgb(229, 244, 10);
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: rgb(247, 238, 238);
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.add{
+  list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+  background-color:rgb(4, 129, 232);
+  color:rgb(229, 244, 10);
+  border:2px solid black;
+  align-items:center;
+  margin-left: 42%;
+}
+.add:hover{
+  color:rgb(229, 244, 10);
+  transform: scale(1.1);
+	transition: .3s;
+}
+.add a{
+	color:  rgb(229, 244, 10);
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  rgb(229, 244, 10);
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: rgb(4, 129, 232);
+	text-decoration: none;
+	font-size: 20px;
+  -webkit-text-stroke: #0000006b;
+  border:2px solid black;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#e4e8eb;
+	bottom: 35px;
+	font-size: 14px; 
+}
